@@ -1,0 +1,36 @@
+[
+    { 
+        "eventType": "LikeDislike", 
+        "timestamp": "2024-12-13T01:13:38.033559Z", 
+        "userId": "user2", 
+        "movieId": "The Dark Knight", 
+        "action": "dislike"
+    },
+
+    {
+        "eventType": "Playback", 
+        "timestamp": "2024-12-13T01:13:36.805929Z", 
+        "userId": "user1", 
+        "movieId": "Iron Man 1", 
+        "sessionId": "session228", 
+        "action": "resume", 
+        "currentPosition": 0
+    },
+
+    {
+        "eventType": "Navigation", 
+        "timestamp": "2024-12-13T01:13:38.304775Z", 
+        "userId": "user4", 
+        "fromPage": "/search", 
+        "toPage": "/home", 
+        "interactionType": "swipe"
+    },
+
+    {
+        "eventType": "Search", 
+        "timestamp": "2024-12-13T01:13:37.735179Z", 
+        "userId": "user3", 
+        "query": "Action movies", 
+        "filters": {"genre": "Action", "year": 2016}, "resultsCount": 29
+    }
+]
